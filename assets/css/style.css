@@ -124,5 +124,19 @@ a{
 
 .commerce-content{
     background: white;
-    
+    text-align: center;
+    margin: 50px 5px;
+
+}
+
+.col-commerce{
+    padding: 20px;
+    width: 40%;
+    text-align: justify;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.col-commerce>img{
+    width: 100%;
 }
