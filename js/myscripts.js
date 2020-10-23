@@ -23,3 +23,21 @@ window.onclick = function(event){
         modal.style.display = "none"
     }
 };
+
+var btn2 = document.getElementById("my-modal-btn-2")
+var modal2 = document.getElementById("my-commerce-2")
+var close2 = document.getElementById("close-button-2")
+
+btn2.onclick = function(){
+    modal2.style.display = "block"
+};
+
+close2.onclick = function(){
+    modal2.style.display = "none"
+};
+
+window.onclick = function(event){
+    if (event.target == modal2){
+        modal2.style.display = "none"
+    }
+};
