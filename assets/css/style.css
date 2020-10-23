@@ -141,6 +141,11 @@ a{
     width: 100%;
 }
 
+.col-commerce>p{
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
 .card-title{
     font-size: 24px;
     font-weight: 500;
@@ -148,22 +153,32 @@ a{
 }
 
 .card-list>li{
-    padding: 4px 0px;
+    padding: 6px 0px;
     letter-spacing: 1px;
+    font-size: 16px;
 }
 
 .close{
     vertical-align: top;
-    position: relative;
-    top: 10px;
-    right: 6px;
+    float: right;
+}
+
+.close>i{
+    padding: 6px;
 }
 
 .pre-order-btn{
-    border: 2px solid #263238;
+    border: 2px solid black;
     border-radius: 2px;
-    padding: 3px 6px;
-    color: #263238;
-    letter-spacing: 2px;
-    
+    padding: 4px 8px;
+    background: white;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+.dark{
+    background: black;
+    color: white;
 }
