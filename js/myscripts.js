@@ -18,6 +18,14 @@ $(document).ready(function(){
     $(".col-p").mouseleave(function(){
         $(this).removeClass("bolder")
     })
+
+    $(".pre-order-btn").mouseenter(function(){
+        $(this).addClass("hover")
+    })
+
+    $(".pre-order-btn").mouseleave(function(){
+        $(this).removeClass("hover")
+    })
 });
 
 
