@@ -24,9 +24,17 @@ ul{
     width: 100%;
 }
 
+.nav{
+    background: none;
+    padding: 10px 0px;
+    position: absolute;
+    width: 100%;
+}
+
 .menu-list{
-    padding: 0;
+    padding: 10px 0px;
     text-align: center;
+    margin: 0;
 }
 
 .menu-list>li{
@@ -34,9 +42,10 @@ ul{
     text-transform: uppercase;
     font-style: italic;
     padding: 0px 10px;
-    letter-spacing: 6px;
-    font-size: 20px;
+    letter-spacing: 8px;
+    font-size: 22px;
     font-weight: 500;
+    color: white;
     width: 30%;
 }
 
