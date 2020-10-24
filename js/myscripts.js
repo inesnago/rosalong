@@ -2,6 +2,22 @@ $(document).ready(function(){
     $("#boards").click(function(){
         $("#boards-main").fadeToggle("fast")
     })
+
+    $(".menu").mouseenter(function(){
+        $(this).addClass("dark")
+    });
+
+    $(".menu").mouseleave(function(){
+        $(this).removeClass("dark")
+    });
+
+    $(".col-p").mouseenter(function(){
+        $(this).addClass("bolder")
+    })
+
+    $(".col-p").mouseleave(function(){
+        $(this).removeClass("bolder")
+    })
 });
 
 

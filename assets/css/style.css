@@ -11,10 +11,6 @@ ul{
     padding: 0;
 }
 
-#boards-main{
-    display: none;
-}
-
 .hero-image-div{
     width: 100%;
     padding-bottom: 16px;
@@ -37,7 +33,7 @@ ul{
     margin: 0;
 }
 
-.menu-list>li{
+.menu{
     display: inline-block;
     text-transform: uppercase;
     font-style: italic;
@@ -60,7 +56,11 @@ ul{
 }
 
 .row-descrip{
-    font-size: 14px;
+    font-size: 16px;
+}
+
+.row-heading{
+    font-size: 22px;
 }
 
 .col{
@@ -74,10 +74,10 @@ ul{
     padding-bottom: 6px;
 }
 
-.col>p{
+.col-p{
     letter-spacing: 1px;
     font-weight: 200;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .footer-row{
@@ -116,6 +116,7 @@ a{
 
 .bolder{
     font-weight: 500;
+    color: #9e9e9e;
 }
 
 .modal {
@@ -188,6 +189,5 @@ a{
 }
 
 .dark{
-    background: black;
-    color: white;
+    color: #9e9e9e;
 }
