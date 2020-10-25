@@ -32,17 +32,57 @@
     <main>
     
         <div>
-            <h3>Choose your board</h3>
+            <h3></h3>
         </div>
 
         <div>
-            <form>
-                <label for=""></label>
-                <input type="text">
-                
-                <input type="submit" value="Submit">
-                
+            <form class="order-form">
+                <p class="form-title">choose your board</p>
+
+                <select class="select-option">
+                    <optgroup label="TWO-7">
+                        <option id="fishpistaccio">fish-pistaccio</option>
+                        <option id="fishplum">fish-plum</option>     
+                        <option id="triple-pistaccio">tripe-pistaccio</option>
+                        <option id="triple-red">triple-red</option>                 
+                    </optgroup>
+
+
+                    <optgroup label="THREE-1">
+                        <option id="nose-plum">nose-plum</option>
+                        <option id="nose-black">nose-black</option>               
+                    </optgroup>              
+
+                    <optgroup label="THREE-5">
+                        <option id="string-red">string-red</option>
+                        <option id="string-yellow">string-yellow</option>
+                        <option id="string-pistaccio">string-pistaccio</option>
+                        <option id="string-blue">string-blue</option>
+                        <option id="tail-yellow">tail-yellow</option>
+                        <option id="tail-turquoise">tail-turquoise</option>                  
+                    </optgroup>                                               
+                </select>
+                <br>
+
+                <p class="form-title">your details</p>
+
+                <label class="label" for="name">Name</label>
+                <input class="input" id="name" type="name">
+
+                <label class="label" for="email">Email</label>                
+                <input class="input" id="email" type="email">
+
+                <label class="label" for="contact">Contact Number</label>                
+                <input class="input" id="contact" type="text">
+
+                <label class="label" for="info">Additional info</label>                
+                <input class="input" id="info" type="text">
+                <br>
+                <input type="submit" class="pre-order-btn" value="SUBMIT">
+
+
             </form>
+
         </div>
     
     

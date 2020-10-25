@@ -26,6 +26,7 @@ $(document).ready(function(){
     $(".pre-order-btn").mouseleave(function(){
         $(this).removeClass("hover")
     })
+
 });
 
 
@@ -65,3 +66,5 @@ window.onclick = function(event){
         modal2.style.display = "none"
     }
 };
+
+
