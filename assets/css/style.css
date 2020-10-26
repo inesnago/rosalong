@@ -46,7 +46,7 @@ ul{
 
 .row{
     text-align: center;
-    padding: 30px 0px;
+    padding: 16px 0px;
 }
 
 .row-heading, .row-descrip{
@@ -55,11 +55,16 @@ ul{
 }
 
 .row-descrip{
-    font-size: 16px;
+    font-size: 14px;
+    margin-top: 4px;
 }
 
 .row-heading{
     font-size: 22px;
+    font-style: italic;
+    margin-bottom: 0;
+    font-weight: 400;
+    color: #2e2e2e;
 }
 
 .col{
@@ -94,7 +99,8 @@ ul{
 .footer-social>li{
     display:inline-block;
     color: inherit;
-    padding: 0px 6px;
+    padding: 0px 8px;
+    font-size: 18px;
 }
 
 .footer-terms>li{
@@ -114,8 +120,8 @@ a{
 }
 
 .bolder{
-    font-weight: 500;
-    color: #9e9e9e;
+    font-weight: 400;
+    color: #cfd8dc;
 }
 
 .modal {
@@ -135,7 +141,6 @@ a{
     background: white;
     text-align: center;
     margin: 50px 5px;
-
 }
 
 .col-commerce{
@@ -151,7 +156,7 @@ a{
 }
 
 .col-commerce>p{
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 2px;
 }
 
@@ -164,7 +169,8 @@ a{
 .card-list>li{
     padding: 6px 0px;
     letter-spacing: 1px;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 300;
 }
 
 .close{
@@ -182,7 +188,8 @@ a{
     font-weight: 500;
     color: #cfd8dc;
     letter-spacing: 4px;
-    font-size: 16px;
+    font-size: 14px;
+    outline: none;
 }
 
 .dark{
@@ -226,6 +233,7 @@ a{
     border-radius: 4px;
     font-family: 'Rubik', sans-serif;
     margin-bottom: 20px;
+    outline: none;
 }
 
 .input{
@@ -236,7 +244,8 @@ a{
     font-family: 'Rubik', 'sans-serif';
     letter-spacing: 2px;
     outline-style: none;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 300;
     margin-bottom: 18px;
 }
 
@@ -267,7 +276,6 @@ optgroup>option{
 
 .p-disclaimer{
     letter-spacing: 2px;
-    text-transform: lowercase;
     line-height: 2.5em;
     font-size: 14px;
     font-weight: 300;
@@ -283,8 +291,9 @@ optgroup>option{
     line-height: 2em;
     font-size: 14px;
     font-weight: 300;
-    margin-bottom: 0;
-    padding: 10px 0px;
+    margin: 0;
+    padding: 0px 10px;
+    padding-bottom: 20px;
 }
 
 main{
