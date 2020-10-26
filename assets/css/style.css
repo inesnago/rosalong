@@ -248,3 +248,12 @@ a{
     margin-top: 10px;
     text-transform: lowercase;
 }
+
+optgroup{
+    font-weight: 300;
+    text-decoration: line-through;
+}
+
+optgroup>option{
+    font-weight: 200;
+}
