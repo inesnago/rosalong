@@ -275,3 +275,17 @@ optgroup>option{
 .order-main{
     text-align: center;
 }
+
+.opening-p{
+    text-align: center;
+    letter-spacing: 6px;
+    line-height: 2em;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 0;
+    padding: 10px 0px;
+}
+
+main{
+    text-align: center;
+}
