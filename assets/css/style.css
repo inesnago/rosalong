@@ -56,12 +56,12 @@ ul{
 
 .row-descrip{
     font-size: 14px;
-    margin-top: 4px;
+    margin-top: 6px;
 }
 
 .row-heading{
     font-size: 22px;
-    font-style: italic;
+
     margin-bottom: 0;
     font-weight: 400;
     color: #2e2e2e;
@@ -287,13 +287,14 @@ optgroup>option{
 
 .opening-p{
     text-align: center;
-    letter-spacing: 6px;
+    letter-spacing: 8px;
     line-height: 2em;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 300;
-    margin: 0;
-    padding: 0px 10px;
-    padding-bottom: 20px;
+    padding: 0px 20px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    text-transform: uppercase;
 }
 
 main{
