@@ -292,7 +292,7 @@ optgroup>option{
     font-size: 18px;
     font-weight: 300;
     padding: 0px 20px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     margin-top: 20px;
     text-transform: uppercase;
 }
@@ -311,7 +311,6 @@ main{
     .opening-p{
         font-size: 14px;
         padding: 0px 4px;
-        margin: 50px;
     }
 
     .col{
