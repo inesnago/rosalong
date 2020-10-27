@@ -318,7 +318,7 @@ main{
     }
 
     .hero-image-div>img{
-        height: 100vw;
+        height: 150vw;
         object-fit: cover;
     }
 
@@ -343,14 +343,32 @@ main{
         position: absolute;
         right: 3%;
         float: none;
-        
+    }
+
+    .footer-div>img{
+        width: 40%;
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
     .col-commerce{
         width: 100%;
         text-align: center;
         display: block;
     }
+
+    .opening-p{
+        margin: 0px;
+        letter-spacing: 4px;
+    }
+
+    .row-heading{
+        font-size: 20px;
+    }
+
+    .footer-social{
+        display: block;
+        padding: 2px 0px;
+    }
+
 }
