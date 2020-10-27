@@ -366,9 +366,18 @@ main{
         font-size: 20px;
     }
 
+    .row-descrip{
+        padding: 20px;
+    }
+
     .footer-social{
         display: block;
         padding: 2px 0px;
+    }
+
+    .col{
+        width: 100%;
+        padding: 20px;
     }
 
 }
