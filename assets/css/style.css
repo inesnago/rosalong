@@ -311,6 +311,7 @@ main{
     .opening-p{
         font-size: 14px;
         padding: 0px 4px;
+        margin: 50px;
     }
 
     .col{
@@ -352,13 +353,12 @@ main{
 
 @media screen and (max-width: 550px){
     .col-commerce{
-        width: 100%;
+        width: 90%;
         text-align: center;
         display: block;
     }
 
     .opening-p{
-        margin: 0px;
         letter-spacing: 4px;
     }
 
@@ -376,8 +376,12 @@ main{
     }
 
     .col{
-        width: 100%;
+        width: 30%;
         padding: 20px;
+    }
+
+    .close{
+        right: 0;
     }
 
 }
