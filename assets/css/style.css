@@ -356,6 +356,11 @@ main{
         padding: 10px 20px;
     }
 
+    .hero-image-div>img{
+        height: 180vw;
+        object-fit: cover;
+    }
+
     .opening-p{
         letter-spacing: 4px;
     }
@@ -380,6 +385,7 @@ main{
 
     .close{
         right: none;
+        top: 0;
         font-size: 18px;
         margin-bottom: 30px;
     }
