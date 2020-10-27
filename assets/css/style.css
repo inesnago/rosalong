@@ -88,7 +88,7 @@ ul{
 .footer-row{
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 6px;
 }
 
 .footer-div{
@@ -204,6 +204,7 @@ a{
 
 .order-image-div{
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .order-image-div>img{
@@ -402,4 +403,15 @@ main{
         margin-bottom: 10px;
     }
 
+}
+
+.copyright{
+    font-size: 8px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.hidden{
+    display: none;
 }

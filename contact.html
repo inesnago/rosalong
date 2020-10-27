@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/b39ca5d2ff.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.5.1.js"></script>
+    <title>Rosa Norte Longboards | Handcrafted skateboards</title>
+</head>
+<body>
+
+    <header>
+
+        <div class="nav">
+            <nav>
+                <ul class="menu-list">
+                    <li class="menu" id="boards"><a href="index.html">Boards</a></li>
+                    <li class="menu" id="order"><a href="order.html">Order</a></li>
+                    <li class="menu" id="contact"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="order-image-div">
+            <img src="assets/images/bitmapnologo.png" alt="hero-img">
+        </div>
+
+    </header>
+
+    <main class="order-main">
+        <p class="form-title"><i>GET IN TOUCH</i></p>
+
+        <div>
+                <form class="order-form" onsubmit="return sendMail(this);">
+                
+                <label class="label" for="fname">First Name</label>
+                <input class="input" type="text" id="fname" name="fname" required>
+
+                <label class="label" for="lname">Last Name</label>
+                <input class="input" type="text" id="lname" required>
+
+                <label class="label" for="email">Email</label>
+                <input class="input" type="email" id="email" name="email" required>
+
+                <label class="label" for="subject">Subject</label>
+                <input class="input" type="text" id="subject" name="subject" required>
+
+                <textarea rows="10" class="input" name="message" id="message" required>Your message here</textarea>
+                
+                <input class="pre-order-btn" type="submit" value="send"></form>
+                <p id="hidden" class="p-disclaimer hidden"><i>Thank you! <br> Your message has been sent. </i></p>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-row">
+            <div class="footer-div">
+                <img src="assets/images/logo1.png" alt="">
+            </div>
+
+            <div class="footer-div">
+                <ul class="footer-social">
+                    <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fab fa-github" target="_blank"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="footer-div">
+                <ul class="footer-terms">
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="contact.html">Get in touch</a></li>
+                    <li><a href="#">Shippings & Returns</a></li>
+                </ul>
+            </div>
+            
+        </div>
+
+        <p class="copyright">Copyright &copy 2020 by <a href="https://inesnago.github.io/my-cv-final/" target="_blank">ims_dev</a></p>
+    </footer>
+    
+
+    <script src="js/myscripts.js" type="text/javascript"></script>
+</body>
+</html>
