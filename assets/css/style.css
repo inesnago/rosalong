@@ -270,7 +270,7 @@ optgroup>option{
 .order-disclaimer{
     text-align: center;
     padding: 20px;
-    width: 70%;
+    width: 60%;
     display: inline-block;
 }
 
@@ -303,6 +303,6 @@ main{
 
 .order-main>div{
     text-align: center;
-    width: 70%;
+    width: 60%;
     display: inline-block;
 }
