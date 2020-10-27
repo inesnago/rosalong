@@ -294,8 +294,6 @@ optgroup>option{
     font-size: 18px;
     font-weight: 300;
     padding: 0px 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
     text-transform: uppercase;
 }
 
@@ -393,6 +391,10 @@ main{
 
     .col>img{
         width: 70%;
+    }
+
+    .pre-order-btn{
+        margin-bottom: 10px;
     }
 
 }
