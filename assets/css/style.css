@@ -63,7 +63,6 @@ ul{
 
 .row-heading{
     font-size: 22px;
-
     margin-bottom: 0;
     font-weight: 400;
     color: #2e2e2e;
@@ -88,8 +87,8 @@ ul{
 
 .footer-row{
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .footer-div{
@@ -354,7 +353,6 @@ main{
     .col-commerce{
         width: 90%;
         text-align: center;
-        display: block;
         padding: 10px 20px;
     }
 
@@ -383,6 +381,7 @@ main{
     .close{
         right: none;
         font-size: 18px;
+        margin-bottom: 30px;
     }
 
     .card-title{
