@@ -306,3 +306,51 @@ main{
     width: 60%;
     display: inline-block;
 }
+
+@media screen and (max-width: 770px){
+    .opening-p{
+        font-size: 14px;
+        padding: 0px 4px;
+    }
+
+    .col{
+        width: 30%;
+    }
+
+    .hero-image-div>img{
+        height: 100vw;
+        object-fit: cover;
+    }
+
+    .menu, .row-heading{
+        font-size: 18px;
+    }
+
+    .row-descrip{
+        font-size: 14px;
+    }
+
+    .card-title{
+        font-size: 18px;
+    }
+
+    .card-list{
+        font-size: 12px;
+    }
+
+    .close{
+        padding: 10px;
+        position: absolute;
+        right: 3%;
+        float: none;
+        
+    }
+}
+
+@media screen and (max-width: 500px){
+    .col-commerce{
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+}
