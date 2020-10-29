@@ -307,6 +307,14 @@ main{
     display: inline-block;
 }
 
+
+@media screen and (max-width:1000px){
+    .footer-div>img{
+        width: 30%;
+    }
+}
+
+
 @media screen and (max-width: 770px){
     .opening-p{
         font-size: 14px;
@@ -347,6 +355,17 @@ main{
 
     .footer-div>img{
         width: 40%;
+    }
+
+
+    .returns{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 8px;
+        letter-spacing: 2px;
+        font-weight: 300;
+        line-height: 2em;
     }
 }
 
@@ -407,8 +426,8 @@ main{
         display: block;
         margin-bottom: 6px;
     }
-
 }
+
 
 .copyright{
     font-size: 8px;
@@ -425,5 +444,27 @@ main{
     font-size: 16px;
     font-weight: 300;
     margin-top: 10px;
+    text-transform: lowercase;
+}
+
+.returns{
+    display: inline-block;
+    width: 45%;
+    text-align: justify;
+    vertical-align: top;
+    padding: 8px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    line-height: 2em;
+}
+
+.returns-li>li{
+    padding: 4px 0px;
+    list-style-type: decimal;
+}
+
+.returns>h3{
+    text-align: center;
+    letter-spacing: 4px;
     text-transform: lowercase;
 }
