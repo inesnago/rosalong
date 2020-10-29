@@ -35,7 +35,7 @@
             <form class="order-form">
                 <p class="form-title">choose your board</p>
 
-                <select class="select-option">
+                <select class="select-option" required>
                     <optgroup label="TWO-7">
                         <option id="fishpistaccio">FISH-pistaccio</option>
                         <option id="fishplum">FISH-plum</option>     
@@ -58,18 +58,25 @@
                         <option id="tail-turquoise">TAIL-turquoise</option>                  
                     </optgroup>                                               
                 </select>
+
+                <label class="radio" for="sand">Clear Grip</label>
+                <input type="radio" name="sand" id="sand">
+
+                <label class="radio" for="nosand">No Grip</label>
+                <input type="radio" name="sand" id="nosand" required>
+                
                 <br>
 
                 <p class="form-title">your details</p>
 
                 <label class="label" for="name">Name</label>
-                <input class="input" id="name" type="name">
+                <input class="input" id="name" type="name" required>
 
                 <label class="label" for="email">Email</label>                
-                <input class="input" id="email" type="email">
+                <input class="input" id="email" type="email" required>
 
                 <label class="label" for="contact">Contact Number</label>                
-                <input class="input" id="contact" type="text">
+                <input class="input" id="contact" type="text" required>
 
                 <label class="label" for="info">Additional info</label>                
                 <input class="input" id="info" type="text">
@@ -98,8 +105,7 @@
             <div class="footer-div">
                 <ul class="footer-social">
                     <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fab fa-github" target="_blank"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
                 </ul>
             </div>
 
@@ -107,7 +113,7 @@
                 <ul class="footer-terms">
                     <li><a href="#">Privacy</a></li>
                     <li><a href="contact.html">Get in touch</a></li>
-                    <li><a href="#">Shippings & Returns</a></li>
+                    <li><a href="shipping.html">Shippings & Returns</a></li>
                 </ul>
             </div>
             

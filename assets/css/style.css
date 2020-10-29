@@ -403,6 +403,11 @@ main{
         margin-bottom: 10px;
     }
 
+    .radio{
+        display: block;
+        margin-bottom: 6px;
+    }
+
 }
 
 .copyright{
@@ -414,4 +419,11 @@ main{
 
 .hidden{
     display: none;
+}
+
+.radio{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+    text-transform: lowercase;
 }
