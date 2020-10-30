@@ -229,3 +229,10 @@ window.onclick = function(event){
         modal11.style.display = "none"
     }
 };
+
+var toggleBtn = document.getElementById("show-button")
+var toggleMenu = document.getElementById("toggle-menu")
+
+toggleBtn.onclick = function(){
+    toggleMenu.style.display = "inline-block"
+}

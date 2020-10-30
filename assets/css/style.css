@@ -348,6 +348,19 @@ main{
     text-transform: lowercase;
 }
 
+.toggle{
+    display:none;
+}
+
+.show-menu{
+    display: none;
+    position: absolute;
+    z-index: 10;
+    background: #cfd8dc;
+    width: 100%;
+    top: 0;
+}
+
 
 @media screen and (max-width:1000px){
     .footer-div>img{
@@ -468,6 +481,21 @@ main{
         display: block;
         margin-bottom: 6px;
     }
+}
+
+@media screen and (max-width: 400px){
+    .toggle{
+        position: absolute;
+        padding: 20px;
+        display: inline-block;
+        color:white;
+        font-size: 30px;
+    }
+    
+    .nav{
+        display: none;
+    }
+
 }
 
 
