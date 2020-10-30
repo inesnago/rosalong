@@ -398,16 +398,15 @@ main{
         width: 40%;
     }
 
-.returns{
-    display: inline-block;
-    width: 60%;
-    text-align: center;
-    padding: 8px;
-    letter-spacing: 2px;
-    font-weight: 300;
-    line-height: 2em;
-}
-
+    .returns{
+        display: inline-block;
+        width: 60%;
+        text-align: center;
+        padding: 8px;
+        letter-spacing: 2px;
+        font-weight: 300;
+        line-height: 2em;
+    }
 
     
 }
