@@ -230,9 +230,12 @@ window.onclick = function(event){
     }
 };
 
+
 var toggleBtn = document.getElementById("show-button")
 var toggleMenu = document.getElementById("toggle-menu")
 
 toggleBtn.onclick = function(){
-    toggleMenu.style.display = "inline-block"
+    toggleBtn.style.color = "black"
+    toggleMenu.style.display = "block"
 }
+

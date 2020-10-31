@@ -349,13 +349,14 @@ main{
 }
 
 .toggle, .toggle-li{
-    display:none;
+    display: none;
 }
 
 .show-menu{
     display: none;
     background: white;
     width: 100%;
+    min-height: 150px;
 }
 
 
@@ -481,6 +482,11 @@ main{
 }
 
 @media screen and (max-width: 400px){
+    
+    .nav{
+        display: none;
+    }
+
     .toggle{
         position: absolute;
         padding: 20px;
@@ -501,10 +507,7 @@ main{
         text-align: center;
         display: block;
     }
-    
-    .nav{
-        display: none;
-    }
+
 
 }
 
