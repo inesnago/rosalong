@@ -348,17 +348,14 @@ main{
     text-transform: lowercase;
 }
 
-.toggle{
+.toggle, .toggle-li{
     display:none;
 }
 
 .show-menu{
     display: none;
-    position: absolute;
-    z-index: 10;
-    background: #cfd8dc;
+    background: white;
     width: 100%;
-    top: 0;
 }
 
 
@@ -490,6 +487,19 @@ main{
         display: inline-block;
         color:white;
         font-size: 30px;
+        text-align: center;
+    }
+
+    .toggle-li{
+        text-transform: uppercase;
+        font-style: italic;
+        letter-spacing: 10px;
+        font-size: 22px;
+        font-weight: 400;
+        padding: 16px 0px;
+        color: black;
+        text-align: center;
+        display: block;
     }
     
     .nav{
