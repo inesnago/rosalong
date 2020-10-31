@@ -238,4 +238,3 @@ toggleBtn.onclick = function(){
     toggleBtn.style.color = "black"
     toggleMenu.style.display = "block"
 }
-

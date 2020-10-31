@@ -490,7 +490,7 @@ main{
     .toggle{
         position: absolute;
         padding: 20px;
-        display: inline-block;
+        display: block;
         color:white;
         font-size: 30px;
         text-align: center;
