@@ -487,6 +487,12 @@ main{
         display: none;
     }
 
+    .order-image-div>img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
     .toggle{
         position: absolute;
         padding: 20px;
@@ -508,7 +514,9 @@ main{
         display: block;
     }
 
-
 }
 
 
+.black{
+    color: black;
+}

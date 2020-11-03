@@ -27,6 +27,11 @@ $(document).ready(function(){
         $(this).removeClass("hover")
     })
 
+    $("#show-button").click(function(){
+        $(this).addClass("black")
+        $("#toggle-menu").fadeIn("slow");
+    })
+
 });
 
 
@@ -231,10 +236,19 @@ window.onclick = function(event){
 };
 
 
-var toggleBtn = document.getElementById("show-button")
-var toggleMenu = document.getElementById("toggle-menu")
+//var toggleBtn = document.getElementById("show-button")
+//var toggleMenu = document.getElementById("toggle-menu")
 
-toggleBtn.onclick = function(){
-    toggleBtn.style.color = "black"
-    toggleMenu.style.display = "block"
-}
+//toggleBtn.onclick = function(){
+
+    //if(toggleMenu.style.display === "none"){
+        //toggleMenu.style.display = "block";
+        //toggleBtn.style.color = "black"
+    //} else{
+        //toggleMenu.style.display = "none";
+        //toggleBtn.style.color = "white"
+    //}
+//}
+
+
+
